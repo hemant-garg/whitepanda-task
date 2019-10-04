@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  min-width: 8rem;
+  cursor: pointer;
+  border: 2px solid $main;
+  color: #42ab92;
+}

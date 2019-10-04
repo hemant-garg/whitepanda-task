@@ -1,0 +1,53 @@
+@import "../../variables.scss";
+
+.navbar {
+  padding: 1.1rem $padding-right 0.8rem $padding-left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // box-shadow: 0 1rem 1rem rgba(0, 0, 0, 1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+  @media screen and (max-width: 800px) {
+    padding: 1.1rem $padding-right-s 0.8rem $padding-left-s;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 1.1rem $padding-right-xs 0.8rem $padding-left-xs;
+  }
+  & img {
+    width: 8.5rem;
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    &--button {
+      background-color: #badc58;
+      padding: 0.5rem;
+      font-size: 1rem;
+      color: #fff;
+      border-radius: 50%;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 1.5rem;
+    }
+    &-icon {
+      position: relative;
+      cursor: pointer;
+      & span {
+        position: absolute;
+        background-color: #ff7979;
+        right: -0.4rem;
+        top: -0.4rem;
+
+        color: #fff;
+        font-size: 0.9rem;
+        padding: 2px;
+        border-radius: 50%;
+      }
+      & svg {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}

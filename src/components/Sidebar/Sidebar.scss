@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+.sidebar {
+  position: fixed;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  &-list {
+    margin-top: 5rem;
+
+    &--item {
+      padding: 1.4rem 1.8rem;
+      box-sizing: border-box;
+
+      cursor: pointer;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+
+      &:first-child {
+        color: $main;
+        border-right: 2px solid $main;
+        padding-right: calc(1.8rem - 2px);
+      }
+
+      &:hover {
+        border-right: 2px solid $main;
+        padding-right: calc(1.8rem - 2px);
+        & svg {
+          color: $main;
+        }
+      }
+      & svg {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

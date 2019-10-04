@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.homepage {
+  padding: 4rem $padding-right 4rem $padding-left;
+  background-color: $light-back;
+  @media screen and (max-width: 900px) {
+    padding: 4rem $padding-right-s 4rem $padding-left-s;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 4rem $padding-right-s 4rem $padding-left-s;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 4rem $padding-right-xs 4rem $padding-left-xs;
+  }
+  &-headline {
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  &-intro {
+    background-color: #f9f9f9;
+    padding: 3rem 1.5rem;
+
+    & h3 {
+      color: $main;
+      // padding-bottom: 1rem;
+    }
+    & p {
+      line-height: 1.5rem;
+      margin: 1.5rem 0;
+    }
+  }
+}
