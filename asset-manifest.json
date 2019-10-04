@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whitepanda-task/static/css/main.070c91b5.chunk.css",
+    "main.js": "/whitepanda-task/static/js/main.48018ca9.chunk.js",
+    "main.js.map": "/whitepanda-task/static/js/main.48018ca9.chunk.js.map",
+    "runtime-main.js": "/whitepanda-task/static/js/runtime-main.f21f7ec9.js",
+    "runtime-main.js.map": "/whitepanda-task/static/js/runtime-main.f21f7ec9.js.map",
+    "static/js/2.c5aa52e8.chunk.js": "/whitepanda-task/static/js/2.c5aa52e8.chunk.js",
+    "static/js/2.c5aa52e8.chunk.js.map": "/whitepanda-task/static/js/2.c5aa52e8.chunk.js.map",
+    "index.html": "/whitepanda-task/index.html",
+    "precache-manifest.1d6bc7fadb192bc8db57c3ca30acf00a.js": "/whitepanda-task/precache-manifest.1d6bc7fadb192bc8db57c3ca30acf00a.js",
+    "service-worker.js": "/whitepanda-task/service-worker.js",
+    "static/css/main.070c91b5.chunk.css.map": "/whitepanda-task/static/css/main.070c91b5.chunk.css.map",
+    "static/media/analytics.svg": "/whitepanda-task/static/media/analytics.09d513a2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f21f7ec9.js",
+    "static/js/2.c5aa52e8.chunk.js",
+    "static/css/main.070c91b5.chunk.css",
+    "static/js/main.48018ca9.chunk.js"
+  ]
+}
