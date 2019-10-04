@@ -2,7 +2,7 @@
   "name": "whitepanda-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hemant-garg.github.io/whitepanda-task",
+  "homepage": "https://hemantgarg.me/whitepanda-task",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
